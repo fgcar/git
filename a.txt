@@ -1,2 +1,3 @@
 Entendendo o HEAD
 fasdfasdfasdf
+Esta linha foi modificada no ramo master
