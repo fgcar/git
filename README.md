@@ -16,41 +16,68 @@ Bot Telegram em Python que entende fotos e áudios (com detecção de objetos e 
 
 ---
 
-## Índice / Table of Contents
-- [Sobre](#sobre--about)
-- [Funcionalidades](#funcionalidades--features)
-- [Arquitetura](#arquitetura--architecture)
-- [Instalação](#instalação--installation)
-  - [Requisitos](#requisitos--requirements)
-  - [Configuração](#configuração--setup)
-- [Como Usar](#como-usar--usage)
-- [Plataformas Suportadas](#plataformas-suportadas--supported-platforms)
-- [Como Funciona](#como-funciona--how-it-works)
-- [Contribuição](#contribuição--contributing)
-- [Licença](#licença--license)
+## Table of Contents
+
+- [About](#about)  
+- [Features](#features)  
+- [Architecture](#architecture)  
+- [Installation](#installation)  
+  - [Requirements](#requirements)  
+  - [Setup](#setup)  
+- [Usage](#usage)  
+- [Supported Platforms](#supported-platforms)  
+- [How it Works](#how-it-works)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
 ---
 
-## Sobre / About
-[Descrição do projeto em Português]  
-[Project description in English]
+## About
 
-## Funcionalidades / Features
-- **Processamento de Imagens**: Detecção de objetos em fotos
-- **Processamento de Áudio**: Transcrição de mensagens de voz
-- [Outras funcionalidades]
+Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos principais de mensagem:  
+- **Fotos:** recebe uma imagem, detecta objetos usando o modelo YOLOv8n e responde com a imagem anotada e a lista dos objetos detectados.  
+- **Áudios de voz:** recebe áudio no formato OGG, converte para WAV, realiza transcrição via Google Speech Recognition API e responde com o texto transcrito.  
 
-## Arquitetura / Architecture
-[Diagrama/explicação da arquitetura do bot]
+---
 
-## Instalação / Installation
-### Requisitos / Requirements
-- Python 3.8+
-- Conta no Telegram com bot criado via @BotFather
-- [Outros requisitos]
+## Features
 
-### Configuração / Setup
-```bash
-git clone https://github.com/seuusuario/seurepo.git
-cd seurepo
-pip install -r requirements.txt
+- Recepção e processamento de imagens com detecção de múltiplos objetos  
+- Transcrição automática de mensagens de voz em português brasileiro  
+- Comandos básicos `/start` e `/test` para interagir com o bot  
+- Integração polimórfica das funcionalidades de áudio e imagem em um único bot  
+- Arquitetura modular e orientada a objetos para fácil extensão  
+
+---
+
+## Architecture
+
+| Módulo           | Descrição                                                       |
+|------------------|-----------------------------------------------------------------|
+| `bot_telegram.py`| Classe base que inicializa o bot, carrega token e handlers básicos |
+| `bot_imagem.py`  | Implementa detecção de objetos em imagens e resposta ao usuário |
+| `bot_audio.py`   | Implementa transcrição de áudio e resposta ao usuário           |
+| `bot_combo.py`   | Junta funcionalidades de áudio e imagem                         |
+| `main.py`        | Script para instanciar o bot e iniciar o polling                |
+
+---
+
+## Installation
+
+### Requirements
+
+- Python 3.8+  
+- Bibliotecas Python:
+  - `pyTelegramBotAPI`  
+  - `ultralytics`  
+  - `librosa`  
+  - `soundfile`  
+  - `SpeechRecognition`  
+  - `python-dotenv`
+
+### Setup
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/seurepo.git
+   cd seurepo
