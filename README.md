@@ -105,6 +105,12 @@ Baixe o instalador oficial em https://ffmpeg.org/download.html e siga as instru�
    git clone --branch GR2 https://github.com/IagoBiundini/ene140_2025.git
    cd ene140_2025
 
+### Ambiente virtual (opcional)
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate  # Linux/Mac
+  venv\Scripts\activate     # Windows
+  ```
 ## Usage
 
 Após instalar as dependências, você pode iniciar o bot executando o arquivo principal:
