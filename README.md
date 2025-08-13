@@ -105,6 +105,14 @@ Baixe o instalador oficial em https://ffmpeg.org/download.html e siga as instru�
    git clone --branch GR2 https://github.com/IagoBiundini/ene140_2025.git
    cd ene140_2025
 
+## Usage
+
+Após instalar as dependências, você pode iniciar o bot executando o arquivo principal:
+
+```bash
+python main.py
+```
+
 ## Supported Platforms
 
 - ![Linux](https://img.shields.io/badge/os-linux-brightgreen.svg) Linux  
