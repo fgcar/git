@@ -82,7 +82,11 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
    git clone https://github.com/seuusuario/seurepo.git
    cd seurepo
 
+### Contributing
 
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/seu-usuario/seu-repositorio/issues)
+
+Pull requests são sempre bem-vindos! Para contribuir, você pode abrir uma issue para discutir melhorias ou bugs, ou então fazer um fork do repositório e enviar um pull request.
 
 ### License
 
