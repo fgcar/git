@@ -123,6 +123,12 @@ Certifique-se de ter criado um arquivo `.env` na raiz do projeto com a variável
 ```bash
 BOT_TOKEN=seu_token_aqui
 ```
+# Como obter seu token do Telegram
+
+1. No Telegram, converse com o **BotFather**.
+2. Use o comando `/newbot` para criar um novo bot.
+3. Copie o token fornecido pelo BotFather e cole no arquivo `.env`.
+
 Interagindo com o Bot
 
   - `Envie uma foto para que o bot detecte e identifique objetos presentes na imagem utilizando o modelo YOLOv8.`
