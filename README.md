@@ -79,8 +79,9 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/seurepo.git
-   cd seurepo
+   git clone --branch GR2 https://github.com/IagoBiundini/ene140_2025.git
+   cd ene140_2025
+
 
 ## Supported Platforms
 
