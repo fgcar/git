@@ -82,6 +82,13 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
    git clone https://github.com/seuusuario/seurepo.git
    cd seurepo
 
+## Supported Platforms
+
+- ![Linux](https://img.shields.io/badge/os-linux-brightgreen.svg) Linux  
+- ![MacOS](https://img.shields.io/badge/os-mac-brightgreen.svg) MacOS  
+- ![Windows](https://img.shields.io/badge/os-windows-yellowgreen.svg) Windows
+
+
 ### How it Works
 
 #### Image Processing
