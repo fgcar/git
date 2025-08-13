@@ -81,6 +81,23 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
 ```bash
 pip install -r requirements.txt
 ```
+
+Além disso, certifique-se de ter o ffmpeg instalado no seu sistema, pois ele é necessário para a manipulação de áudio.
+Instalando o ffmpeg
+
+  No Ubuntu/Debian:
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+  No macOS (com Homebrew):
+```bash
+brew install ffmpeg
+```
+  No Windows:
+
+Baixe o instalador oficial em https://ffmpeg.org/download.html e siga as instruções para adicionar o ffmpeg ao PATH do sistema.
+
 ### Setup
 
 1. Clone o repositório:
