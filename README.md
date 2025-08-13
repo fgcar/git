@@ -119,8 +119,8 @@ BOT_TOKEN=seu_token_aqui
 ```
 Interagindo com o Bot
 
-  -`Envie uma foto para que o bot detecte e identifique objetos presentes na imagem utilizando o modelo YOLOv8.`
-  -`Envie um áudio de voz para que o bot transcreva o conteúdo do áudio para texto.`
+  - `Envie uma foto para que o bot detecte e identifique objetos presentes na imagem utilizando o modelo YOLOv8.`
+  - `Envie um áudio de voz para que o bot transcreva o conteúdo do áudio para texto.`
 
 O bot responderá com a transcrição do áudio ou com a imagem contendo as detecções e a lista dos objetos encontrados.
 
