@@ -82,6 +82,24 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
    git clone https://github.com/seuusuario/seurepo.git
    cd seurepo
 
+### How it Works
+
+#### Image Processing
+
+1. Recebe foto do usuário  
+2. Salva localmente em `in/`  
+3. Executa detecção com YOLOv8n  
+4. Salva imagem anotada em `out/`  
+5. Envia imagem anotada e lista de objetos detectados  
+
+#### Audio Processing
+
+1. Recebe mensagem de voz (OGG)  
+2. Salva e converte para WAV  
+3. Transcreve áudio usando Google Speech Recognition API (via SpeechRecognition)  
+4. Responde com texto transcrito  
+
+
 ### Contributing
 
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](https://github.com/seu-usuario/seu-repositorio/issues)
