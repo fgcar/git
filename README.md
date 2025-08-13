@@ -75,10 +75,12 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
   - `SpeechRecognition`  
   - `python-dotenv`
 
-  ```bash
-  pip install -r requirements.txt
-  ```
 
+  Todas as bibliotecas Python necessárias estão listadas no arquivo `requirements.txt`. Para instalar as dependências, execute o comando abaixo no terminal:
+
+```bash
+  pip install -r requirements.txt
+```
 ### Setup
 
 1. Clone o repositório:
