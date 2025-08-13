@@ -75,13 +75,6 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
   - `SpeechRecognition`  
   - `python-dotenv`
 
-
-Isso vai exibir o comando formatado como código, e o texto que vier depois no seu README continuará normal, sem ser interpretado como código ou comentário.
-
----
-
-Exemplo no Markdown:
-
   ```bash
   pip install -r requirements.txt
   ```
