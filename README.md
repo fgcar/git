@@ -113,6 +113,20 @@ Após instalar as dependências, você pode iniciar o bot executando o arquivo p
 python main.py
 ```
 
+Certifique-se de ter criado um arquivo `.env` na raiz do projeto com a variável BOT_TOKEN configurada com o token do seu bot do Telegram:
+```bash
+BOT_TOKEN=seu_token_aqui
+```
+Interagindo com o Bot
+
+  -`Envie uma foto para que o bot detecte e identifique objetos presentes na imagem utilizando o modelo YOLOv8.`
+  -`Envie um áudio de voz para que o bot transcreva o conteúdo do áudio para texto.`
+
+O bot responderá com a transcrição do áudio ou com a imagem contendo as detecções e a lista dos objetos encontrados.
+
+Se quiser parar o bot, use Ctrl+C no terminal.
+
+
 ## Supported Platforms
 
 - ![Linux](https://img.shields.io/badge/os-linux-brightgreen.svg) Linux  
