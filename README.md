@@ -79,7 +79,7 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
   Todas as bibliotecas Python necessárias estão listadas no arquivo `requirements.txt`. Para instalar as dependências, execute o comando abaixo no terminal:
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ### Setup
 
@@ -87,7 +87,6 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
    ```bash
    git clone --branch GR2 https://github.com/IagoBiundini/ene140_2025.git
    cd ene140_2025
-
 
 ## Supported Platforms
 
