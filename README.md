@@ -81,3 +81,14 @@ Este projeto é um bot Telegram desenvolvido em Python que suporta dois tipos pr
    ```bash
    git clone https://github.com/seuusuario/seurepo.git
    cd seurepo
+
+
+
+### License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+
+
+
